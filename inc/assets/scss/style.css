@@ -1,0 +1,56 @@
+/* 
+Here will go all custom scss for theme
+*/
+body {
+  font-family: 'Poppins',
+    sans-serif;
+}
+
+@media (min-width: 1350px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+
+header#hamburger {
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 20px #00000030;
+  box-shadow: 0 0 20px #00000030;
+  z-index: 999;
+  position: fixed;
+  left: 0;
+  right: 0;
+  padding: .5em 0;
+}
+
+header#hamburger .navbar-nav {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+}
+
+header#hamburger .navbar-nav li a {
+  color: #2a2b4b;
+}
+
+.banner {
+  height: 100vh;
+  background: #292a4b;
+}
+
+.banner h1,
+.banner h2 {
+  color: #fff;
+}
+
+.banner .form-banner {
+  background: #fff;
+  border-radius: 2em;
+}
+
+.banner .form-banner h3 {
+  color: #292a4b;
+}
+
+/*# sourceMappingURL=style.css.map */

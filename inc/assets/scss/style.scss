@@ -1,0 +1,22 @@
+/* 
+Here will go all custom scss for theme
+*/
+
+$dark: #2a2b4b;
+$dark2: #292a4b;
+$white: #fff;
+$all_tr: all .5s;
+
+body {
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+@media(min-width: 1350px) {
+    .container {
+        max-width: 1320px;
+    }
+}
+
+@import "header";
+@import "banner";
