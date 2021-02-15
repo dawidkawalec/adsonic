@@ -29,7 +29,12 @@
             href="#content"><?php esc_html_e( 'Skip to content', 'wp-bootstrap-starter' ); ?></a>
         <?php if(!is_page_template( 'blank-page.php' ) && !is_page_template( 'blank-page-with-container.php' )): ?>
         <header id="hamburger" class="site-header navbar-static-top" role="banner">
-            <div class="container">
+            <div class="container d-flex justify-content-lg-between">
+                <div class="logo">
+                    <a href="/index.php">
+                        <img src="/wp-content/themes/adsonic/inc/assets/image/logo.svg" alt="Adsonic logo">
+                    </a>
+                </div>
                 <nav class="navbar navbar-expand-xl">
 
                     <?php

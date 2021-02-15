@@ -6,10 +6,11 @@ $dark: #2a2b4b;
 $dark2: #292a4b;
 $white: #fff;
 $all_tr: all .5s;
-
 body {
-    font-family: 'Poppins',
-        sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background: url("../image/body-min.jpg");
+    background-size: auto;
+    background-position: top center;
 }
 
 @media(min-width: 1350px) {
@@ -18,5 +19,19 @@ body {
     }
 }
 
+// @media(min-width: 1760px) {
+//     .container {
+//         max-width: 1650px;
+//     }
+// }
+@media(min-width: 1760px) {
+    .container {
+        max-width: 1450px;
+    }
+}
+
 @import "header";
 @import "banner";
+@import "_form";
+@import "_box";
+@import "_footer";
