@@ -10,6 +10,7 @@ body {
     font-family: 'Poppins', sans-serif;
     background: url("../image/body-min.jpg");
     background-size: auto;
+    // background-size: 94%;
     background-position: top center;
 }
 
@@ -17,6 +18,10 @@ body {
     .container {
         max-width: 1320px;
     }
+}
+
+div#page {
+    overflow: hidden;
 }
 
 // @media(min-width: 1760px) {
@@ -32,6 +37,7 @@ body {
 
 @import "header";
 @import "banner";
-@import "_form";
-@import "_box";
-@import "_footer";
+@import "form";
+@import "box";
+@import "offer";
+@import "footer";
