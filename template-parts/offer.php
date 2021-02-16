@@ -43,7 +43,7 @@
                 <p>Ceneo Ads</p>
             </div>
         </div>
-        <div class="row offer__opis">
+        <div class="row offer__opis mt-5">
             <div class="col-lg-12">
                 <p>To najlepsze miejsca
                     do ekspozycji online,

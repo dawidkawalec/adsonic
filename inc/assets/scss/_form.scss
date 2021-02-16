@@ -1,7 +1,10 @@
 .logotype {
     height: 200px;
     background-color: #000;
-    margin: 150px 0;
+    margin: 80px 0 150px;
+    @media(max-width: 768px) {
+        margin: 0px 0 50px;
+    }
 }
 
 .form {
@@ -36,8 +39,8 @@
                 line-height: 39px;
             }
             @media(min-width: 992px) {
-                font-size: 38px;
-                line-height: 50px;
+                font-size: 34px;
+                line-height: 45px;
             }
         }
         h4 {
@@ -50,12 +53,12 @@
             }
             @media(min-width: 992px) {
                 font-size: 24px;
-                line-height: 39px;
+                line-height: 31px;
                 margin: 30px 0 30px;
             }
         }
         p {
-            font-weight: 700;
+            font-weight: 800;
             font-size: 17px;
             line-height: 27px;
             @media(min-width: 768px) {
@@ -69,7 +72,7 @@
         }
         span {
             color: #3ac2cf;
-            font-weight: 700;
+            font-weight: 800;
             font-size: 25px;
             @media(min-width: 768px) {
                 font-size: 35px;
@@ -82,21 +85,24 @@
     .form-content {
         img.year-21 {
             position: absolute;
-            bottom: 20px;
-            right: 0px;
+            bottom: 40px;
+            right: -80px;
             z-index: -1;
-            @media(min-width: 1350px) {
-                right: 70px;
-            }
-            @media(min-width: 1440px) {
-                right: 90px;
-            }
+            // @media(min-width: 1350px) {
+            //     right: -80px;
+            // }
+            // @media(min-width: 1440px) {
+            //     right: 90px;
+            // }
         }
         img.person {
             position: absolute;
             bottom: -90px;
-            right: 40%;
+            right: 27%;
             z-index: 1;
+            @media(max-width: 768px) {
+                right: 3%;
+            }
         }
         form {
             background: url('../image/form-bg.jpg');
@@ -107,7 +113,11 @@
             background-position: center;
             padding: 30px;
             @media(min-width: 1200px) {
-                width: 80%;
+                width: 100%;
+            }
+            @media(max-width: 768px) {
+                width: 100%;
+                height: auto;
             }
             &:before {
                 content: "";
@@ -118,6 +128,9 @@
                 right: 35%;
                 position: absolute;
                 background-blend-mode: lighten;
+                @media(max-width: 768px) {
+                    right: 10%;
+                }
             }
             &:after {
                 content: "";
@@ -135,9 +148,63 @@
                     top: -48px;
                 }
             }
+            input {
+                outline: 0;
+                box-shadow: none;
+            }
             .input {
                 width: 60%;
                 margin-bottom: 24px;
+                @media(max-width: 768px) {
+                    // right: 80%;
+                    width: 80%;
+                }
+            }
+            .input.www input::placeholder {
+                font-size: 30px;
+                font-weight: 300;
+                text-align: right;
+                position: relative;
+                top: 18px;
+                right: -11px;
+                color: #b9b9b9;
+                @media(max-width: 768px) {
+                    font-size: 18px;
+                }
+            }
+            .input.firma input::placeholder {
+                font-size: 21px;
+                font-weight: 300;
+                position: relative;
+                top: 18px;
+                left: -11px;
+                color: #b9b9b9;
+                @media(max-width: 768px) {
+                    font-size: 18px;
+                }
+            }
+            .input.tel input::placeholder {
+                font-size: 21px;
+                font-weight: 300;
+                position: relative;
+                top: 18px;
+                left: 10px;
+                color: #b9b9b9;
+                @media(max-width: 768px) {
+                    font-size: 18px;
+                }
+            }
+            .input.mail input::placeholder {
+                font-size: 21px;
+                font-weight: 300;
+                position: relative;
+                top: 20px;
+                color: #b9b9b9;
+                text-align: center;
+                font-size: 30px;
+                @media(max-width: 768px) {
+                    font-size: 18px;
+                }
             }
             .input input {
                 border-radius: 0;
@@ -150,6 +217,7 @@
                 position: relative;
                 font-size: 27px;
                 font-weight: 700;
+                width: 60%;
             }
             p {
                 color: #000;

@@ -29,20 +29,20 @@
             href="#content"><?php esc_html_e( 'Skip to content', 'wp-bootstrap-starter' ); ?></a>
         <?php if(!is_page_template( 'blank-page.php' ) && !is_page_template( 'blank-page-with-container.php' )): ?>
         <header id="hamburger" class="site-header navbar-static-top" role="banner">
-            <div class="container d-flex justify-content-lg-between">
+            <div class="container d-flex justify-content-between align-items-center">
                 <div class="logo">
                     <a href="/index.php">
                         <img src="/wp-content/themes/adsonic/inc/assets/image/logo.svg" alt="Adsonic logo">
                     </a>
                 </div>
-                <nav class="navbar navbar-expand-xl">
+                <nav class="navbar navbar-expand-lg">
 
                     <?php
                 wp_nav_menu(array(
                 'theme_location'    => 'primary',
                 'container'       => 'div',
                 'container_id'    => 'main-nav',
-                'container_class' => 'collapse navbar-collapse justify-content-end',
+                'container_class' => 'navbar-collapse justify-content-end',
                 'menu_id'         => false,
                 'menu_class'      => 'navbar-nav',
                 'depth'           => 3,
@@ -52,6 +52,9 @@
                 ?>
 
                 </nav>
+                <div class="hamburger d-lg-none">
+                    <img src="/wp-content/themes/adsonic/inc/assets/image/hamburger.png" alt="">
+                </div>
             </div>
         </header><!-- #masthead -->
 
