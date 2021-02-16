@@ -1,0 +1,201 @@
+.offer {
+    .offer__hero {
+        img {
+            display: block;
+            margin: 40px auto 0 auto;
+            transform: translateX(-140px);
+        }
+    }
+
+    .offer__title {
+        position: absolute;
+        display: block;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        margin-top: -240px;
+        text-shadow: 0 0 20px #0000007a;
+        letter-spacing: 2px;
+        transform: translateX(-20px);
+
+        h2 {
+            color: #48f0f9;
+            text-transform: uppercase;
+            font-weight: 800;
+            font-size: 44px;
+            text-align: center;
+        }
+    }
+
+    .offer__gads {
+        p {
+            color: #fff;
+            font-weight: 700;
+            font-size: 40px;
+            padding: 0px;
+            text-align: center;
+            margin-left: 280px;
+            position: relative;
+
+            &::before {
+                position: absolute;
+                z-index: 200;
+                content: '';
+                width: 70px;
+                height: 70px;
+                background: url(/wp-content/uploads/2021/02/offericon.png) center center no-repeat;
+                background-size: contain;
+                margin-left: -90px;
+                top: 5px;
+                opacity: .65;
+
+            }
+        }
+    }
+
+    .offer__fbads {
+        p {
+            color: #fff;
+            font-weight: 700;
+            font-size: 40px;
+            padding: 0px;
+            text-align: center;
+            margin-right: 620px;
+            position: relative;
+            margin-top: 25px;
+
+            &::before {
+                position: absolute;
+                z-index: 200;
+                content: '';
+                width: 70px;
+                height: 70px;
+                background: url(/wp-content/uploads/2021/02/offericon.png) center center no-repeat;
+                background-size: contain;
+                margin-left: 315px;
+                top: 5px;
+                opacity: .65;
+                transform: rotate(75deg);
+
+            }
+        }
+    }
+
+    .offer__allegroads {
+        p {
+            color: #fff;
+            font-weight: 700;
+            font-size: 40px;
+            padding: 0px;
+            text-align: center;
+            margin-left: 370px;
+            position: relative;
+            margin-top: 25px;
+
+            &::before {
+                position: absolute;
+                z-index: 200;
+                content: '';
+                width: 70px;
+                height: 70px;
+                background: url(/wp-content/uploads/2021/02/offericon.png) center center no-repeat;
+                background-size: contain;
+                margin-left: -90px;
+                top: 5px;
+                opacity: .65;
+                transform: rotate(-15deg);
+
+            }
+        }
+    }
+
+    .offer__amazonads {
+        p {
+            color: #fff;
+            font-weight: 700;
+            font-size: 40px;
+            padding: 0px;
+            text-align: center;
+            margin-right: 730px;
+            position: relative;
+            margin-top: 25px;
+
+            &::before {
+                position: absolute;
+                z-index: 200;
+                content: '';
+                width: 70px;
+                height: 70px;
+                background: url(/wp-content/uploads/2021/02/offericon.png) center center no-repeat;
+                background-size: contain;
+                margin-left: 315px;
+                top: 5px;
+                opacity: .65;
+                transform: rotate(75deg);
+
+            }
+        }
+    }
+
+    .offer__ceneoads {
+        p {
+            color: #fff;
+            font-weight: 700;
+            font-size: 40px;
+            padding: 0px;
+            text-align: center;
+            margin-left: 450px;
+            position: relative;
+            margin-top: 25px;
+
+            &::before {
+                position: absolute;
+                z-index: 200;
+                content: '';
+                width: 70px;
+                height: 70px;
+                background: url(/wp-content/uploads/2021/02/offericon.png) center center no-repeat;
+                background-size: contain;
+                margin-left: -90px;
+                top: 5px;
+                opacity: .65;
+                transform: rotate(-15deg);
+
+            }
+        }
+    }
+
+    .offer__opis {
+        p {
+            color: #fff;
+            font-weight: 600;
+            font-size: 35px;
+            padding: 0px;
+            text-align: right;
+            margin-left: -50px;
+            position: relative;
+            margin-top: -45px;
+            max-width: 550px;
+        }
+    }
+
+    .offer__outro {
+        background: #000000ab;
+        color: #fff;
+        font-weight: 600;
+        font-size: 35px;
+        text-align: center;
+        padding: 40px 0;
+        margin-top: 50px;
+
+        p {
+            max-width: 1040px;
+            display: block;
+            margin: 0 auto;
+
+            span {
+                color: #48f0f9;
+            }
+        }
+    }
+}

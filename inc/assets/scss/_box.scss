@@ -1,9 +1,11 @@
 $dark: #2a2b4b;
 $dark2: #292a4b;
 $white: #fff;
+
 .box {
     // margin-top: 200px;
-    margin-top: 2489px;
+    margin-top: 300px;
+
     .title {
         h3 {
             color: $white;
@@ -11,17 +13,20 @@ $white: #fff;
             font-size: 17px;
             line-height: 40px;
             letter-spacing: 13px;
-            margin-bottom: 100px;
+            margin-bottom: 250px;
+
             @media(min-width: 640px) {
                 font-size: 34px;
                 line-height: 60px;
                 letter-spacing: 14px;
             }
+
             @media(min-width: 768px) {
                 font-size: 44px;
                 line-height: 62px;
                 letter-spacing: 22px;
             }
+
             @media(min-width: 992px) {
                 font-size: 60px;
                 line-height: 90px;
@@ -29,10 +34,12 @@ $white: #fff;
             }
         }
     }
+
     .box-single {
         @media(max-width: 992px) {
             margin-bottom: 70px;
         }
+
         &:nth-child(1) {
             @media(min-width: 992px) {
                 &:after {
@@ -47,6 +54,7 @@ $white: #fff;
                 }
             }
         }
+
         &:nth-child(4) {
             @media(min-width: 992px) {
                 &:after {
@@ -61,16 +69,19 @@ $white: #fff;
                 }
             }
         }
+
         &:nth-child(2) {
             @media(min-width: 992px) {
                 margin-top: 100px;
             }
         }
+
         &:nth-child(4) {
             @media(min-width: 992px) {
                 margin-top: 250px;
             }
         }
+
         .icon {
             img {
                 width: 70px;
@@ -78,15 +89,19 @@ $white: #fff;
                 margin-bottom: 10px;
             }
         }
+
         .desc {
             color: #fff;
             font-weight: 600;
+
             @media(min-width: 992px) {
                 font-size: 19px;
             }
+
             @media(min-width: 1200px) {
                 font-size: 22px;
             }
+
             span {
                 color: #3ac2cf;
                 font-weight: 700;
