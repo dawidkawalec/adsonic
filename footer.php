@@ -24,21 +24,21 @@
                 Polska 114<br>
                 61-001 Poznań
             </div>
-            
+
         </div>
         <div class="row mt-5 align-items-lg-end">
-        <div class="line col-lg-6">
-              <div class="line-content">
-                  <strong>HOTLINE: </strong>889 541 657<br>
-                    support@adsonic.pl
-              </div>
+            <div class="line col-lg-6">
+                <div class="line-content">
+                    <strong>HOTLINE: </strong><a href="tel:+48790681949">790 681 949</a><br>
+                    <a href="mailto:hello@adsonic.pl">hello@adsonic.pl</a>
+                </div>
             </div>
             <div class="social col-lg-6">
-              <ul class="">
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
-              </ul>
+                <ul class="">
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                </ul>
             </div>
         </div>
     </div>
