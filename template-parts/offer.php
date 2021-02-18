@@ -10,12 +10,12 @@
     <div class="container" style="position: relative;">
         <div class="row offer__hero">
             <div class="col-lg-12">
-                <img src="/wp-content/uploads/2021/02/offerhero.png" alt="">
+                <img src="/wp-content/uploads/2021/02/offerhero-1.png" alt="">
             </div>
         </div>
         <div class="row offer__title">
             <div class="col-lg-12">
-                <h2>Pracujemy w kilku częstotliwościach</h2>
+                <h2>Pracujemy <br>w kilku <br>częstotliwościach</h2>
             </div>
         </div>
         <div class="row offer__gads">

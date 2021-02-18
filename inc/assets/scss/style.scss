@@ -6,12 +6,14 @@ $dark: #2a2b4b;
 $dark2: #292a4b;
 $white: #fff;
 $all_tr: all .5s;
+
 body {
-    font-family: 'Poppins', sans-serif;
-    background: url("../image/body-min.jpg");
-    background-size: auto;
-    // background-size: 94%;
+    font-family: 'Poppins',
+        sans-serif;
+    background: url(/wp-content/uploads/2021/02/ADSONIC_bckgrnd-scaled.jpg) no-repeat;
+    background-size: 1366px;
     background-position: top center;
+    background-color: black;
 }
 
 @media(min-width: 1350px) {

@@ -23,24 +23,27 @@
             </div>
             <div class="col-lg-5 box-single text-lg-right">
                 <div class="icon"><img src="/wp-content/uploads/2021/02/ikon2.svg" alt="Adsonic logo"></div>
-                <div class="desc">
-                    Doświadczenie w dostarczaniu wysokiej jakości usług dla branży <span>e-commerce</span> pozwala nam
-                    oferować rozwiązania, które gwarantują wyższą stopę zwrotu kosztów przeznaczonych na reklamę -
-                    doświadczenia ma znaczenie! </div>
+                <div class="desc"><span>Poprawimy UX Twojego sklepu -</span>
+                    dzięki&nbsp;naszej optymalizacji, klienci łatwiej
+                    zrobią zakupy i chętniej do niego wrócą.
+                    Sprawimy, że Twój sklep stanie się
+                    ich&nbsp;ulubionym.</div>
             </div>
             <div class="col-lg-5 box-single">
                 <div class="icon"><img src="/wp-content/uploads/2021/02/ikon3.svg" alt="Adsonic logo"></div>
-                <div class="desc">
-                    <span>Poprawimy UX Twojego sklepu</span>, aby kompleksowo zadbać o użyteczność oraz obraz Twojego
-                    serwisu w oczach klienta - bo pierwsze wrażenie ma znaczenie!
+                <div class="desc"><span>Zadbamy o każdy kanał reklamy płatnej </span>
+                    - niezależnie gdzie chcesz się reklamować,
+                    nasi specjaliści przygotują skuteczne kampanie
+                    dla Twojego e-commerce na każdą platformę!
                 </div>
             </div>
             <div class="col-lg-5 box-single  text-lg-right">
                 <div class="icon"><img src="/wp-content/uploads/2021/02/ikon4.svg" alt="Adsonic logo"></div>
                 <div class="desc">
-                    <span>Wykonamy dla Ciebie darmowy audyt konta</span>, dzięki czemu dowiesz się co poprawić lub
-                    odświeżyć, aby zwiększyć efektywność reklam - sprawdź sam, o ile więcej klientów możesz zdobywać
-                    dzięki skutecznym kampaniom online.
+                    Z nami zobaczysz co oznaczają efektywne działania.
+                    Doświadczenie w realizacji setek kampanii, pozwolą
+                    <span>zmaksymalizować ROAS i osiągnąć wyniki
+                        jakich nie znałeś!</span>
                 </div>
             </div>
         </div>
