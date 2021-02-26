@@ -6,7 +6,7 @@
 
 ?>
 
-<section class="offer">
+<section class="offer" id="oferta">
     <div class="container" style="position: relative;">
         <div class="row offer__hero">
             <div class="col-lg-12">
@@ -14,7 +14,7 @@
             </div>
         </div>
         <div class="row offer__title">
-            <div class="col-lg-12">
+            <div class="col-lg-12 px-5">
                 <h2>Pracujemy <br>w kilku <br>częstotliwościach</h2>
             </div>
         </div>
@@ -58,10 +58,12 @@
     </div>
 
     <div class="offer__outro">
-        <p>Niezależnie, czy chcesz dotrzeć do klienta poszukującego,
-            czy dopiero wzbudzić potrzebę konsumencką,
-            to&nbsp;właśnie&nbsp;reklama płatna pomoże zrealizować każdy
-            z&nbsp;tych&nbsp;celów - <span>kluczem jest odpowiednia strategia
-                oraz optymalizacja.</span></p>
+        <div class="col-lg-12">
+            <p>Niezależnie, czy chcesz dotrzeć do klienta poszukującego,
+                czy dopiero wzbudzić potrzebę konsumencką,
+                to&nbsp;właśnie&nbsp;reklama płatna pomoże zrealizować każdy
+                z&nbsp;tych&nbsp;celów - <span>kluczem jest odpowiednia strategia
+                    oraz optymalizacja.</span></p>
+        </div>
     </div>
 </section>

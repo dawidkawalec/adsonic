@@ -408,3 +408,12 @@ echo 'Fueled by <a href="http://www.wordpress.org" target="_blank">WordPress</a>
 }
  
 add_filter('admin_footer_text', 'remove_footer_admin');  
+
+
+add_filter( 'nav_menu_link_attributes', 'wpse156165_menu_add_class', 10, 3 );
+
+function wpse156165_menu_add_class( $atts, $item, $args ) {
+    $class = 'nav-link scrollTo'; // or something based on $item
+    $atts['class'] = $class;
+    return $atts;
+}

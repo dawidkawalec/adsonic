@@ -1,6 +1,7 @@
 $dark: #2a2b4b;
 $dark2: #292a4b;
 $white: #fff;
+
 header#hamburger {
     z-index: 999;
     position: fixed;
@@ -8,22 +9,31 @@ header#hamburger {
     right: 0;
     padding: 30px 0;
     transition: all 0.4s;
+
     &.sticky {
         background: #000;
     }
+
     @media(min-width: 640px) {}
+
     @media(min-width: 768px) {}
+
     @media(min-width: 992px) {
         padding: 35px 0;
     }
+
     @media(min-width: 1199px) {}
+
     @media(min-width: 1440px) {}
+
     @media(min-width: 1760px) {}
+
     .logo {
         a {
             img {
                 width: 130px;
                 height: auto;
+
                 // @media(max-width: 1199px) {
                 //     position: relative;
                 //     top: 5px;
@@ -31,21 +41,28 @@ header#hamburger {
                 @media(min-width: 640px) {
                     width: 130px;
                 }
+
                 @media(min-width: 768px) {}
+
                 @media(min-width: 992px) {
                     width: 130px;
                 }
+
                 @media(min-width: 1199px) {
                     width: 230px;
                 }
+
                 @media(min-width: 1440px) {}
+
                 @media(min-width: 1760px) {}
             }
         }
     }
+
     .navbar {
         padding: 0;
         margin: 0;
+
         @media(max-width: 992px) {
             display: none;
             position: absolute;
@@ -56,28 +73,36 @@ header#hamburger {
             padding: 30px;
         }
     }
+
     .navbar-nav {
         justify-content: space-between;
         width: 100%;
+
         li {
             position: relative;
+
             @media(max-width: 992px) {
                 margin-bottom: 10px;
             }
+
             @media(min-width: 992px) {
                 margin-left: 6px;
             }
+
             @media(min-width: 1200px) {
                 margin-left: 10px;
             }
+
             &:hover {
                 &:after {
                     height: 90px;
                 }
+
                 a {
                     color: #000;
                 }
             }
+
             &:after {
                 content: '';
                 background: white;
@@ -90,47 +115,56 @@ header#hamburger {
                 top: -44px;
                 z-index: -1;
                 transition: all 0.4s;
+
                 @media(max-width: 992px) {
                     display: none;
                 }
             }
+
             &:last-child {
                 &:after {
                     display: none;
                 }
+
                 a {
                     background-color: #e2015b;
                     padding: 9px 16px;
                     font-size: 14px;
                     text-shadow: 0 0 20px rgba(0, 0, 0, 0.75);
+
                     &:hover {
-                        background-color: #47eff8;
+                        background-color: #d7bb5b;
                         color: #fff;
                     }
+
                     @media(min-width: 1199px) {
                         margin-left: 11px;
                     }
                 }
             }
+
             a {
                 color: $white;
                 text-transform: uppercase;
                 font-weight: 700;
                 transition: all 0.4s;
+
                 @media(max-width: 992px) {
                     &:hover {
-                        color: #47eff8;
+                        color: #d7bb5b;
                     }
                 }
             }
         }
     }
+
     .hamburger {
         img {
             width: 45px;
             cursor: pointer;
             transition: all 0.4s;
         }
+
         &.rotate {
             img {
                 transform: rotate(90deg);

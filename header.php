@@ -20,6 +20,7 @@
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
+
     <?php wp_head(); ?>
 </head>
 
@@ -32,7 +33,7 @@
             <div class="container d-flex justify-content-between align-items-center">
                 <div class="logo">
                     <a href="/index.php">
-                        <img src="/wp-content/themes/adsonic/inc/assets/image/logo.svg" alt="Adsonic logo">
+                        <img src="/wp-content/uploads/2021/02/logo.png" alt="Adsright logo">
                     </a>
                 </div>
                 <nav class="navbar navbar-expand-lg">

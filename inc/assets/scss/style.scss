@@ -8,9 +8,8 @@ $white: #fff;
 $all_tr: all .5s;
 
 body {
-    font-family: 'Poppins',
-        sans-serif;
-    background: url(/wp-content/uploads/2021/02/ADSONIC_bckgrnd-scaled.jpg) no-repeat;
+    font-family: 'Poppins', sans-serif;
+    background: url(../image/body-min.jpg) no-repeat;
     background-size: 1366px;
     background-position: top center;
     background-color: black;
@@ -36,6 +35,8 @@ div#page {
         max-width: 1450px;
     }
 }
+
+
 
 @import "header";
 @import "banner";

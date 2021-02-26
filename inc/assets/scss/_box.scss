@@ -2,7 +2,11 @@
     max-width: 1200px;
     margin: 0 auto;
     display: block;
-    margin-top: 200px;
+    margin-top: 160px;
+
+    @media(max-width: 992px) {
+        margin-top: 70px;
+    }
 
     .title {
         h3 {
@@ -13,12 +17,33 @@
             font-size: 38px;
             line-height: 60px;
             letter-spacing: 20px;
+
+            @media(max-width: 992px) {
+                font-size: 28px;
+                line-height: 50px;
+                margin-bottom: 60px;
+            }
+
+            @media(max-width: 768px) {
+                font-size: 20px;
+                line-height: 38px;
+                letter-spacing: 10px;
+            }
         }
     }
 
     .box-single {
         @media(max-width: 992px) {
             margin-bottom: 70px;
+            margin-top: 0 !important;
+
+            .desc {
+                max-width: 100% !important;
+            }
+        }
+
+        @media(max-width: 768px) {
+            margin-bottom: 35px;
         }
 
         &:nth-child(1) {
@@ -41,12 +66,12 @@
                 &:after {
                     content: "";
                     width: 6px;
-                    height: 360px;
+                    height: 200px;
                     background: white;
                     display: block;
                     position: absolute;
                     left: 0;
-                    top: -310px;
+                    top: -130px;
                 }
             }
         }
@@ -61,7 +86,7 @@
         }
 
         &:nth-child(4) {
-            margin-top: 190px;
+            margin-top: 115px;
 
             .desc {
                 margin-right: 0;
@@ -72,6 +97,10 @@
         &:nth-child(3) {
             margin-left: 100px;
 
+            @media(max-width: 992px) {
+                margin-left: 0;
+            }
+
             .desc {}
         }
 
@@ -80,7 +109,7 @@
                 width: 50px;
                 height: auto;
                 margin-bottom: 20px;
-                filter: invert(72%) sepia(97%) saturate(457%) hue-rotate(146deg) brightness(87%) contrast(83%);
+                filter: invert(29%) sepia(10%) saturate(2938%) hue-rotate(248deg) brightness(96%) contrast(85%);
             }
         }
 
@@ -91,8 +120,12 @@
             max-width: 400px;
             line-height: 1.3;
 
+            @media(max-width: 768px) {
+                font-size: 14px;
+            }
+
             span {
-                color: #3ac2cf;
+                color: #d7bb5b;
                 font-weight: 700;
             }
         }

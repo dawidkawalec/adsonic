@@ -6,7 +6,7 @@
 
 ?>
 
-<section class="banner">
+<section class="banner" id="start">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -15,7 +15,7 @@
                         <h1>Wprowadzamy Twoją<br><span>sprzedaż online</span><br>na odpowiednią częstotliwość.</h1>
                     </div>
                     <div class="banner-button">
-                        <a href="#" class="text-uppercase">Bezpłatne konsultacje</a>
+                        <a href="#bezplatne-konsultacje" class="scrollTo text-uppercase">Bezpłatne konsultacje</a>
                     </div>
                 </div>
             </div>
@@ -79,10 +79,24 @@
                     <!-- Initialize Swiper -->
                     <script>
                     var swiper = new Swiper('.swiper-container', {
-                        slidesPerView: 5,
+                        slidesPerView: 3,
                         spaceBetween: 30,
                         loop: true,
                         centeredSlides: true,
+                        breakpoints: {
+                            640: {
+                                slidesPerView: 3,
+                                spaceBetween: 20,
+                            },
+                            768: {
+                                slidesPerView: 3,
+                                spaceBetween: 30,
+                            },
+                            1024: {
+                                slidesPerView: 5,
+                                spaceBetween: 30,
+                            },
+                        }
                     });
                     </script>
                 </div>

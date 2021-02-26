@@ -1,5 +1,5 @@
 footer {
-    margin-top: 200px;
+    margin-top: 30px;
     color: #fff;
     padding-bottom: 60px;
     background: transparent !important;
@@ -13,16 +13,21 @@ footer {
 
         @media(max-width: 992px) {
             text-align: center;
+            margin-bottom: 40px;
         }
 
         span {
-            color: #3ac2cf;
+            color: #754379;
             font-size: 120px;
             font-weight: 700;
             mix-blend-mode: exclusion;
 
             @media(max-width: 992px) {
                 font-size: 60px;
+            }
+
+            @media(max-width: 768px) {
+                font-size: 40px;
             }
         }
     }
@@ -48,13 +53,13 @@ footer {
         }
 
         span {
-            color: #3ac2cf;
+            color: #d7bb5b;
         }
     }
 
     .line-content {
         width: auto;
-        background: #3ac2cf;
+        background: #d7bb5b;
         color: #000;
         font-size: 27px;
         width: 360px;
@@ -81,9 +86,9 @@ footer {
             width: 2000px;
             left: -2000px;
             background: rgb(0, 0, 0);
-            background: -moz-linear-gradient(90deg, rgba(0, 0, 0, 1) 84%, rgba(58, 194, 207, 1) 100%);
-            background: -webkit-linear-gradient(90deg, rgba(0, 0, 0, 1) 84%, rgba(58, 194, 207, 1) 100%);
-            background: linear-gradient(90deg, rgba(0, 0, 0, 1) 84%, rgba(58, 194, 207, 1) 100%);
+            background: -moz-linear-gradient(90deg, rgba(0, 0, 0, 1) 84%, #d7bb5b 100%);
+            background: -webkit-linear-gradient(90deg, rgba(0, 0, 0, 1) 84%, #d7bb5b 100%);
+            background: linear-gradient(90deg, rgba(0, 0, 0, 1) 84%, #d7bb5b 100%);
         }
     }
 
@@ -109,7 +114,7 @@ footer {
                     display: block;
                     width: 70px;
                     height: 70px;
-                    background-color: #3ac2cf;
+                    background-color: #d7bb5b;
                     border-radius: 100px;
 
                     @media(max-width: 992px) {
